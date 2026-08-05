@@ -1,5 +1,7 @@
 # Sales Profitability Analysis (Tableau)
 ## Project Overview
+<img width="1920" height="996" alt="dashboard" src="https://github.com/user-attachments/assets/c642ad6d-cb90-4596-93ef-11e4bcd4d6ce" />
+
 
 This project presents an interactive Tableau dashboard designed to analyze sales performance and profitability across different product categories and regions.
 The goal is to identify low-margin areas, uncover unprofitable segments, and highlight key drivers impacting overall business performance.

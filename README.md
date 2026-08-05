@@ -21,18 +21,39 @@ The goal is to identify low-margin areas, uncover unprofitable segments, and hig
 * Interactive filters (Category, Region, Order Date)
 * Heatmap for performance comparison
 
+## Business Problem
+
+The company lacks visibility into true profitability drivers. 
+High revenue does not always translate into profit due to discounts, 
+regional differences, and product-level inefficiencies.
+
 ## Key Insights
 
-* Office Supplies demonstrate the highest profit margin
-* Furniture shows significantly lower profitability
-* Profitability varies across regions, indicating potential inefficiencies
-* Certain segments generate revenue but remain unprofitable
+- High sales do not guarantee profitability due to discount-driven margin erosion
+- Furniture category consistently underperforms in terms of profit margin
+- Profitability issues are concentrated in specific region-category combinations
+- A subset of products generates revenue while destroying profit
 
-## Tools & Technologies
+## Recommendations
 
-* Tableau (data visualization)
-* SQL (data analysis)
+- Reevaluate pricing strategy for low-margin products
+- Reduce or optimize discount levels in underperforming categories
+- Focus on high-margin categories to improve overall profitability
+- Investigate regional inefficiencies affecting profit margins
 
+## Tech Stack
+
+- SQL (data extraction and aggregation)
+- Tableau (dashboard and visualization)
+- CSV (data storage)
+
+  ## 📁 Project Structure
+
+data/
+dashboard/
+image/
+README.md
+  
 ## How to Use
 
 1. Download the `.twbx` file from the `dashboards/` folder
